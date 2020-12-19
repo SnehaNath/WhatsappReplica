@@ -38,6 +38,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:19.2.0'                    //Firebase Cloud Storage
     implementation 'com.google.firebase:firebase-analytics:18.0.0'                  //Firebase Analytics
     implementation 'com.google.firebase:firebase-database:19.5.1'                   //For RealTime Database -> DatabaseReference
+    implementation 'com.firebaseui:firebase-ui-database:7.1.1'                      // FirebaseUI for Firebase Realtime Database  -> FB recyclerViewAdapter
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'//Firebase Storage
     //add TabLayout dependency
@@ -46,6 +47,10 @@ dependencies {
     //CustomTabs to add to your project so your app in mobile can access browser using CustomTabs
 
     implementation 'de.hdodenhof:circleimageview:3.1.0'             //CircleImageView
+
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'         //allow to crop the images
+
+    implementation 'com.squareup.picasso:picasso:2.71828'       //picasso library
 
 // Import the BoM for the Firebase platform -> By using the Firebase Android BoM, your app will always use compatible versions of the Firebase Android libraries\//implementation platform('com.google.firebase:firebase-bom:26.1.0')
 
